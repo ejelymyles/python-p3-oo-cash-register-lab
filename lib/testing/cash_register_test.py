@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 from cash_register import CashRegister
-
+import ipdb
 import io
 import sys
 
@@ -117,3 +117,4 @@ class TestCashRegister:
       assert(self.cash_register.total == 0.0)
       self.reset_register_totals()
       
+    
